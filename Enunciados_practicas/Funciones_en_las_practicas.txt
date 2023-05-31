@@ -1,0 +1,50 @@
+Practica 1 (Espacio de color).
+    - Mostrar imagen en RGB
+    - Convertir a CMY
+    - Convertir a HSI
+    - Convertir a HSV
+    - Tratamiento de imagenes pixel a pixel
+
+Practica 2 (Tranformaciones del dominio y espacial).
+    - Mostrar imagen en escala de grises
+    - Transformada de fourier
+    - Filtro con frecuencias verticales y horizontales (tanto mantener como quitar)
+    - Operador umbral (threshold)
+    - Operaciones and y or 
+
+Practica 3 (Transformaciones y correcciones)
+    - Filtro paso bajo
+    - Contraer histograma
+    - Resta pixel a pixel (usar el -)
+    - Expandir histograma
+    - Ecualizar la imagen
+    - Comparación de histogramas
+    - Realzado de una imagen (algoritmo final de todos los pasos)
+
+Practica 4 (Bordes, regiones y puntos de interes)
+    - Creacion de sliders
+    - Transformada de Hough para detectar cintas verdes
+    - Transformada circular de Hough para detectar pelotas azules
+    - Extraccion de contornos
+    - Obtener area de un contorno y centroides a traves de los momentos de los contornos
+
+Practica 5: (Operaciones morfológicas y Calibración)
+    - Identificacoin de esqueleto tras usar un filtro de color
+    - Proyectar lineas de 3D a 2D a diferentes distancias al robot
+    - Calcular proyecciones de 2D a 3D de puntos seleccionados a traves de clicks
+    - Mostrar imagen de profundidad correctamente a traves del realzado de imagen
+
+Practica 6: (Visión 3D)
+    - Filtro de color en 3D para detectar pelotas rosas (Usando SACSegmentation)
+    - Eliminar anomalias (outliers)
+    - Deteccion de esferas y extraccion de coeficientes
+    - Dibujar cubos en los centroides y a x metros de distancia del robot
+
+Practica Final (Ejecutar desde el directorio raiz del ws (~Desktop/ros2_computer_vision)): 
+    - Detectar personas
+    - Identificar pelotas en 2D y 3D y proyectar sus centros en 3D y 2D
+    - Proyectar lineas de distancia al robot en 3D y 2D
+    - Detectar pelotas usando su centro y radio en 2D para detectarlas en 3D
+    - Detectar pelotas usando su centro y radio en 3D para detectarlas en 2D
+    
+* los modelos de ball_p6 deben copiarse en la carpeta models de tu instalación de gazebo
